@@ -1,0 +1,5 @@
+
+adb shell am start -W -a android.intent.action.VIEW -d "dummyapp://homestackscreen/add" com.dummyproject
+adb shell am start -W -a android.intent.action.VIEW -d "dummyapp://homestackscreen/home" com.dummyproject
+adb shell am start -W -a android.intent.action.VIEW -d "dummyapp://settingstackscreen/edit" com.dummyproject
+adb shell am start -W -a android.intent.action.VIEW -d "dummyapp://settingstackscreen/setting" com.dummyproject
